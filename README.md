@@ -61,10 +61,18 @@ Create a new EC2 instance to host the website.
 ## 2. Website Hosting
 
 ### Action:
-Host a website using HTML, CSS, and JavaScript on the EC2 instance.
 
-### Steps:
-1. Transfer your website files to the EC2 instance using secure methods like SCP or SFTP.
+1. **Clone the Repository**
+   ```
+   git clone <repository_URL>
+   cd AWS-Load-Balancer-Implementation
+   ```
+2. Use these files to deploy the website on your EC2 instance or preferred web hosting environment.
+3. Ensure necessary configurations for web servers or platforms are appropriately set up.
+4. Utilize these provided website files to experiment, deploy, or integrate with your setup as required or you can use your own files to host website as well.
+
+Steps:
+1. Transfer your website files to the EC2 instance using secure methods git-clone.
 2. Configure your web server (e.g., Apache, Nginx) to serve the website content.
 
 ## 3. EBS Volume Attachment
